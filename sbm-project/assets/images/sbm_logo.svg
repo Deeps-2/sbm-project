@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100" width="400" height="100">
+  <defs>
+    <linearGradient id="saffron" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF9933" />
+      <stop offset="100%" stop-color="#FF6600" />
+    </linearGradient>
+    <linearGradient id="green" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#138808" />
+      <stop offset="100%" stop-color="#0F6606" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Spectacles (Gandhi Ji's Chashma) -->
+  <g transform="translate(10, 15)">
+    <!-- Left Glass Rim -->
+    <circle cx="35" cy="35" r="28" fill="#ffffff" stroke="#FF9933" stroke-width="5"/>
+    <text x="35" y="41" font-family="'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="14" fill="#0b4d6e" text-anchor="middle">स्वच्छ</text>
+    
+    <!-- Bridge -->
+    <path d="M 63 32 Q 78 22 93 32" fill="none" stroke="#000080" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Right Glass Rim -->
+    <circle cx="121" cy="35" r="28" fill="#ffffff" stroke="#138808" stroke-width="5"/>
+    <text x="121" y="41" font-family="'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="14" fill="#0b4d6e" text-anchor="middle">भारत</text>
+
+    <!-- Temple lines -->
+    <line x1="7" y1="35" x2="0" y2="28" stroke="#000080" stroke-width="4" stroke-linecap="round"/>
+    <line x1="149" y1="35" x2="156" y2="28" stroke="#000080" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Typography -->
+  <g transform="translate(180, 28)">
+    <text x="0" y="24" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="24" font-weight="900" fill="#ffffff" letter-spacing="0.5">
+      SBM <tspan fill="#4dd0e1">PORTAL</tspan>
+    </text>
+    <text x="0" y="46" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="700" fill="#e0f2f1" letter-spacing="2">
+      SWACHH BHARAT MISSION
+    </text>
+  </g>
+</svg>

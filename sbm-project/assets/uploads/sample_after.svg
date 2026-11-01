@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="sunnySky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#81d4fa"/>
+      <stop offset="100%" stop-color="#e1f5fe"/>
+    </linearGradient>
+    <linearGradient id="cleanRoad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#78909c"/>
+      <stop offset="100%" stop-color="#546e7a"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Wall & Bright Sky -->
+  <rect width="600" height="220" fill="url(#sunnySky)"/>
+  <rect x="0" y="160" width="600" height="70" fill="#eceff1"/>
+  <line x1="0" y1="230" x2="600" y2="230" stroke="#b0bec5" stroke-width="4"/>
+
+  <!-- Pavement with fresh whitewash line & clean curb -->
+  <rect x="0" y="230" width="600" height="170" fill="url(#cleanRoad)"/>
+  <!-- Freshly painted curb (Yellow and Black SBM Curb) -->
+  <g>
+    <rect x="0" y="230" width="60" height="22" fill="#fbc02d"/>
+    <rect x="60" y="230" width="60" height="22" fill="#212121"/>
+    <rect x="120" y="230" width="60" height="22" fill="#fbc02d"/>
+    <rect x="180" y="230" width="60" height="22" fill="#212121"/>
+    <rect x="240" y="230" width="60" height="22" fill="#fbc02d"/>
+    <rect x="300" y="230" width="60" height="22" fill="#212121"/>
+    <rect x="360" y="230" width="60" height="22" fill="#fbc02d"/>
+    <rect x="420" y="230" width="60" height="22" fill="#212121"/>
+    <rect x="480" y="230" width="60" height="22" fill="#fbc02d"/>
+    <rect x="540" y="230" width="60" height="22" fill="#212121"/>
+  </g>
+
+  <!-- Segregated Spotless Dual Waste Bins -->
+  <g transform="translate(140, 110)">
+    <!-- Wet Waste Bin (Green) -->
+    <rect x="40" y="60" width="70" height="120" rx="8" fill="#2e7d32" stroke="#1b5e20" stroke-width="3"/>
+    <rect x="35" y="52" width="80" height="14" rx="4" fill="#1b5e20"/>
+    <text x="75" y="115" font-family="sans-serif" font-weight="900" font-size="12" fill="#ffffff" text-anchor="middle">WET</text>
+    <text x="75" y="132" font-family="sans-serif" font-weight="700" font-size="10" fill="#a5d6a7" text-anchor="middle">WASTE</text>
+
+    <!-- Dry Waste Bin (Blue) -->
+    <rect x="130" y="60" width="70" height="120" rx="8" fill="#1565c0" stroke="#0d47a1" stroke-width="3"/>
+    <rect x="125" y="52" width="80" height="14" rx="4" fill="#0d47a1"/>
+    <text x="165" y="115" font-family="sans-serif" font-weight="900" font-size="12" fill="#ffffff" text-anchor="middle">DRY</text>
+    <text x="165" y="132" font-family="sans-serif" font-weight="700" font-size="10" fill="#90caf9" text-anchor="middle">WASTE</text>
+  </g>
+
+  <!-- Potted Plants & Greenery -->
+  <g transform="translate(390, 185)">
+    <!-- Planter 1 -->
+    <rect x="0" y="25" width="45" height="40" rx="3" fill="#8d6e63"/>
+    <circle cx="22" cy="18" r="24" fill="#43a047"/>
+    <circle cx="10" cy="10" r="14" fill="#66bb6a"/>
+    <circle cx="34" cy="12" r="15" fill="#2e7d32"/>
+    
+    <!-- Planter 2 -->
+    <rect x="65" y="25" width="45" height="40" rx="3" fill="#8d6e63"/>
+    <circle cx="87" cy="18" r="24" fill="#43a047"/>
+    <circle cx="75" cy="10" r="14" fill="#66bb6a"/>
+    <circle cx="99" cy="12" r="15" fill="#2e7d32"/>
+  </g>
+
+  <!-- Clean sparkling stars on the ground -->
+  <g fill="#ffeb3b" opacity="0.95">
+    <path d="M 120,310 L 124,318 L 132,322 L 124,326 L 120,334 L 116,326 L 108,322 L 116,318 Z"/>
+    <path d="M 280,285 L 283,291 L 289,294 L 283,297 L 280,303 L 277,297 L 271,294 L 277,291 Z"/>
+    <path d="M 450,330 L 454,338 L 462,342 L 454,346 L 450,354 L 446,346 L 438,342 L 446,338 Z"/>
+  </g>
+
+  <!-- Status Stamp -->
+  <rect x="20" y="20" width="160" height="42" rx="8" fill="#2e7d32" opacity="0.95"/>
+  <text x="100" y="47" font-family="sans-serif" font-weight="900" font-size="16" fill="#ffffff" text-anchor="middle">✅ AFTER CLEANING</text>
+</svg>
